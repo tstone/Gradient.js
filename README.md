@@ -7,10 +7,13 @@ Generate you some gradients!
 Using Gradient.js Server-side
 ---------------------------
 Install the gradient module (TODO: module not yet active)
+
 ```
 npm install gradient
 ```
+
 Add it to your source.
+
 ```
 var Gradient = require('gradient');
 ```
@@ -18,6 +21,7 @@ var Gradient = require('gradient');
 Using Gradient.js Client-side
 ---------------------------
 Include gradient-min.js within your page. (TODO: no gradient-min.js built yet)
+
 ```html
 <script src="gradient-min.js"></script>
 ```
@@ -44,6 +48,7 @@ console.log(grad.toArray('hexString'));
 
 Running the Tests
 --------------------
+
 ```
 node test/test.js
 ```
