@@ -46,6 +46,34 @@ console.log(grad.toArray('hexString'));
   '#E5005D' ]
 ```
 
+Stupid Gradient Tricks
+----------------------
+
+Bring back 1998 with rainbow HTML.
+
+```javascript
+function rainbowString (s) {
+    var grad = Gradient('#0071bc', '#662d91', '#e5005d', s.length);
+    return grad.toArray('hexString').map(function (x, i){
+        return '<span>' + s[i] + '</span>';
+    }).join('');
+};
+
+document.write(rainbowString("Hello World!"));
+```
+
+Other (Better) Uses
+-------------------
+
+Generate awesome colors for your gRaphael pie charts.
+
+```javascript
+var paper = Raphael(10, 50, 640, 480);
+var data = [55, 20, 13, 32, 5, 1, 2];
+var colors = Gradient('#97aeba', '#0a3d54', data.length).toArray('rgbString');
+paper.piechar(320, 240, 100, data, { colors: colors });
+```
+
 Running the Tests
 --------------------
 
