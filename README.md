@@ -2,7 +2,7 @@
 Gradient.js
 ===========
 
-Generate you some gradients!
+Generate you some gradients!  Gradient.js is built on top of harthur/color https://github.com/harthur/color.
 
 Using Gradient.js Server-side
 ---------------------------
