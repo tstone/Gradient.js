@@ -3,7 +3,7 @@
   , "version": "0.1.0"
   , "description": "A class for generating gradients."
   , "homepage": "http://github.com/tstone/Gradient.js"
-  , "keywords": ["color", "gradient"]
+  , "keywords": ["color", "gradient", "css"]
   , "author": {
         "name": "Titus",
         "email": "wastingtape@gmail.com",
@@ -20,6 +20,10 @@
     }
     , "dependencies": {
         "color": ">=0.4.0"
+    }
+  , "devDependencies": {
+        "browserify": ">=1.1.0"
+      , "uglify-js": "1.0.x"
     }
   , "main": "gradient"
   , "engines": [ "node >= 0.4"]
