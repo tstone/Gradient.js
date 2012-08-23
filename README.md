@@ -1,3 +1,4 @@
+[![build status](https://secure.travis-ci.org/tstone/Gradient.js.png)](http://travis-ci.org/tstone/Gradient.js)
 
 Gradient.js
 ===========
