@@ -1,13 +1,13 @@
 {
     "name": "gradient"
-  , "version": "0.1.0"
+  , "version": "0.2.0"
   , "description": "A class for generating gradients."
   , "homepage": "http://github.com/tstone/Gradient.js"
   , "keywords": ["color", "gradient", "css"]
   , "author": {
         "name": "Titus",
         "email": "wastingtape@gmail.com",
-        "url": "http://twitter.com/andstuff"
+        "url": "http://array.blue"
     }
   , "licenses": [{
         "type":"MIT"
@@ -25,6 +25,6 @@
         "browserify": "~1.1.0"
       , "uglify-js": "1.0.x"
     }
-  , "main": "./index.js"
+  , "main": "gradient"
   , "engines": [ "node >= 0.4"]
 }
