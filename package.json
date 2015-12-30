@@ -25,6 +25,6 @@
         "browserify": "~1.1.0"
       , "uglify-js": "1.0.x"
     }
-  , "main": "gradient"
+  , "main": "lib/gradient.js"
   , "engines": [ "node >= 0.4"]
 }
